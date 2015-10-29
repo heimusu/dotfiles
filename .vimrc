@@ -12,7 +12,7 @@ NeoBundle 'Shougo/neocomplcache'
 "NeoBundle 'Shougo/neosnippet'
 NeoBundle 'Shougo/neosnippet-snippets'
 NeoBundle 'jpalardy/vim-slime'
-NeoBundle 'scrooloose/syntastic'
+"NeoBundle 'scrooloose/syntastic'
 NeoBundle 'Shougo/neomru.vim'
 NeoBundle 'scrooloose/nerdtree'
 ""NeoBundle 'https://bitbucket.org/kovisoft/slimv'
@@ -21,12 +21,12 @@ filetype plugin indent on     " required!
 filetype indent on
 syntax on
 
-let g:syntastic_mode_map = {
-    \ "mode" : "active",
-    \ "active_filetypes" : ["javascript", "json"]
-    \}
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_javascript_checker ='jshint'
+"let g:syntastic_mode_map = {
+"    \ "mode" : "active",
+"    \ "active_filetypes" : ["javascript", "json"]
+"    \}
+"let g:syntastic_auto_loc_list = 1
+"let g:syntastic_javascript_checker ='jshint'
 
 set autoindent
 set clipboard=unnamed

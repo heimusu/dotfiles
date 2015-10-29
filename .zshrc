@@ -50,6 +50,13 @@ fi
 
 # alias for u-fukui
 alias uf='ssh ji140087@ufportal.b.cii.u-fukui.ac.jp'
+alias ufpass='echo "qb0TSeEl"'
+
+#alias for aws
+alias sshaws='ssh -i t2Micro.pem ec2-user@52.10.49.251'
+
+#alias for quicktime player
+alias quick='open -a "quicktime player"'
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
